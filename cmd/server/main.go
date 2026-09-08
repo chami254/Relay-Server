@@ -42,7 +42,7 @@ func main() {
 	// Fall back to 8080 for local development.
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "10000"
 	}
 
 	log.Println("=====================================")
